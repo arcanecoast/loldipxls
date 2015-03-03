@@ -11,11 +11,11 @@ How to use the application
 
 This is console application. The syntax is next:
 
-Usage: loldipxls <<command>> <<filename.xls>>
+Usage: loldipxls &lt;command&gt; &lt;filename.xls&gt;
 
 Available commands:
-- toxls -- extract all .DIPs' strings to <<filename.xls>>
-- fromxls -- update all .DIPs with strings from <<filename.xls>>
+- toxls -- extract all .DIPs' strings to &lt;filename.xls&gt;
+- fromxls -- update all .DIPs with strings from &lt;filename.xls&gt;
 
 Building the application
 ------------------------
@@ -34,6 +34,8 @@ Dependencies
 The application depends on:
 - lollibs (<https://github.com/metamaker/lollibs>)
 - ExcelFormat (<http://www.codeproject.com/Articles/42504/ExcelFormat-Library>)
+
+Copies of these libraries are provided in vendor/ folder.
 
 License agreement
 -----------------
